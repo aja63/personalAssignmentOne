@@ -1,10 +1,12 @@
 {
   "name": "main",
   "version": "1.0.0",
-  "scripts": {
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
-    "test": "jest"
-  },
+    "scripts": {
+      "test": "jest",
+      "start": "node index.js",
+      "coverage": "jest --coverage",
+      "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    },
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^3.0.9",
