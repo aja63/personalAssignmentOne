@@ -1,5 +1,5 @@
 
-const MathOperations = require('./MathOp');
+const MathOperations = require('./mathOp');
 
 class Calculator {
     Add(a,b) {
